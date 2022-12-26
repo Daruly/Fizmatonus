@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="selector_button">
+        <item name="paddingStart">12dp</item>
+        <item name="paddingEnd">12dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="cornerRadius">32dp</item>
+        <item name="backgroundTint">#003459</item>
+    </style>
+    <style name="selector_button_transparent">
+        <item name="android:textColor">#003459</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="cornerRadius">32dp</item>
+    </style>
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_slide_out</item>
+    </style>
+</resources>

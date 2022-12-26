@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fizmatback"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/lblLogn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="@color/dark_late_gray"
+        android:text="You are welcome!"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/fizmatlogo"
+        android:layout_below="@+id/lblLogn"/>
+
+    <EditText
+        android:id="@+id/plnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Fizmat.kz email adress"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginRight="45dp"
+        android:padding="10dp"
+        android:layout_below="@id/imgLogo"/>
+
+    <EditText
+        android:id="@+id/plnPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center"
+        android:layout_marginRight="45dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="10dp"
+        android:layout_below="@id/plnEmail"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Log in"
+        android:textSize="20dp"
+        android:backgroundTint="@color/light_red"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginRight="45dp"
+        android:layout_below="@id/plnPassword"
+        android:textAllCaps="false"/>
+
+    <ProgressBar
+        android:id="@+id/barProgress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstrains"
+        />
+
+    <TextView
+        android:id="@+id/lblRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don’t you have an account?"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@color/dark_late_gray"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>

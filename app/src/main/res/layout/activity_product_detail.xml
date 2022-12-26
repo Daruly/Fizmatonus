@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fizmatback"
+    tools:context=".ProductDetailActivity">
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TextView
+        android:id="@+id/lblOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/dark_late_gray"
+        android:text="Продукция FIZMAT" />
+
+    <TextView
+        android:id="@+id/lblTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/lblOne"
+        android:textSize="20dp"
+        android:textColor="@color/dark_late_gray"
+        android:text="Физмат Эндаумент Фонд запустил линию брендовой продукции FIZMAT. Получите брендовую продукцию за Ваш неоценимый вклад в развитие школы." />
+
+    <TextView
+        android:id="@+id/lblThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:layout_below="@id/lblTwo"
+        android:textColor="@color/dark_late_gray"
+        android:text="Как получить?" />
+
+    <TextView
+        android:id="@+id/lblFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_below="@id/lblThree"
+        android:textColor="@color/dark_late_gray"
+        android:text="Заказать можно по этой ссылке. Забрать продукцию можно по 2 адресам:\n\t 1) г. Алматы, бульвар Бухар жырау 36;\n\t 2) г. Астана, улица Туркестан 2/1.\nВы можете заказать доставку до вашего дома при помощи услуг Казпочты. Расчитать стоимость доставки вы можете здесь. Сообщите нам на почтовый адрес shop@fizmat.kz наименование, цвет, размер, количество и способ доставки. Наш менеджер обязательно свяжется с Вами." />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/lblFour"
+        android:backgroundTint="@color/light_red"
+        android:autoLink="all"
+        android:text="@string/shop_about_link" />
+</RelativeLayout>
+</ScrollView>

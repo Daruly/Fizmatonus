@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Hakatonus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shop_about_link" style="text-decoration: none;"><a href='https://docs.google.com/forms/d/e/1FAIpQLSfsp3Z4sgvmifNQ4CMdRHbDl6NcKgg2gt-ClNjqvPHBZ9wfzw/viewform'>click</a></string>
+    <string-array name="dropdown_menu_options">
+        <item>Новости</item>
+        <item>Домашнее Задание</item>
+        <item>Школьные истории</item>
+        <item>Обсуждение</item>
+    </string-array>
+    <string-array name="title">
+        <item>Кепка \n Fizmat</item>
+        <item>"Толстовка \n Fizmat"</item>
+        <item>"Блокнот \n Fizmat"</item>
+        <item>"Чехол \n Fizmat"</item>
+        <item>"Шарф \n Fizmat"</item>
+        <item>"Свитер \n Fizmat"</item>
+        <item>"Галстук \n Fizmat"</item>
+        <item>"Значок \n Fizmat"</item>
+        <item>"Поло \n Fizmat"</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>Вклад: 5000KZ</item>
+        <item>Вклад: 15000KZ</item>
+        <item>Вклад: 3000KZ</item>
+        <item>Вклад: 5000KZ</item>
+        <item>Вклад: 3000KZ</item>
+        <item>Вклад:9000KZ</item>
+        <item>Вклад: 5000KZ</item>
+        <item>Вклад: 2000KZ</item>
+        <item>Вклад: 8000KZ</item>
+    </string-array>
+    <drawable name="photos">
+
+        <item>R.drawable.fizmat_cap</item>
+        <item>R.drawable.fizmat_hoody</item>
+        <item>R.drawable.fizmat_note</item>
+        <item>R.drawable.fizmat_plcover</item>
+        <item>R.drawable.fizmat_scarf</item>
+        <item>R.drawable.fizmat_sweater</item>
+        <item>R.drawable.fizmat_tie</item>
+        <item>R.drawable.fizmat_icon</item>
+        <item>R.drawable.fizmat_polo</item>
+    </drawable>
+</resources>

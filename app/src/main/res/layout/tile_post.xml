@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="100"
+    android:orientation="horizontal"
+    android:layout_height="110dp">
+    <!-- layout_width fill_parent + (layout sum = sum of all elements in Linear)
+     + setting each element's width to 0 lets each element to have fixed
+     width with respect to the screen's width-->
+    <RelativeLayout
+        android:layout_weight="60"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        >
+        <!--ellipsize - "..." at the end -->
+        <TextView
+            android:id="@+id/tile_post_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Title"
+            android:ellipsize="end"
+            android:textAllCaps="true"
+            android:textColor="#00A7E1"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tile_post_desc"
+            android:layout_below="@+id/tile_post_title"
+            android:textAlignment="textStart"
+            android:layout_marginTop="2dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:maxLength="250"
+            android:ellipsize="end"
+            />
+        <TextView
+            android:id="@+id/tile_post_author"
+            android:layout_below="@id/tile_post_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9B9B9B"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:text="Almaty Fizmat"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tile_post_imgCardView"
+        app:cardCornerRadius="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <ImageView
+            android:padding="10dp"
+            android:id="@+id/tile_post_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fizmatlogo"/>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="100"
+        android:layout_below="@id/tile_post_imgCardView">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            />
+        <ImageView
+            android:layout_weight="12"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_heart_24"/>
+        <TextView
+            android:id="@+id/tile_post_likesCounter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="2dp"
+            android:textSize="16sp"
+            android:layout_weight="25"
+            android:text="999+"
+            android:ellipsize="end"
+            android:maxLength="4"
+            android:textColor="#9B9B9B"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_share_24"
+            android:layout_weight="16"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            />
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_baseline_bookmark_border_24"
+            android:layout_weight="16"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF9800</color>
+    <color name="ColorPrimary">#FF03DAC5</color>
+    <color name="ColorPrimaryDark">#FF018786</color>
+    <color name="light_red">#FF7362</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#DBEEE8</color>
+    <color name="light_gray2">#D3D3D3</color>
+    <color name="dark_late_gray">#2b3e50</color>
+    <color name="dark_late_gray2">#3b5059</color>
+    <color name="cadet_blue">#64b296</color>
+    <color name="light_blue">#00A7E1</color>
+    <color name="teal">#00BDFF</color>
+    <color name="blue">#003459</color>
+
+    <color name="colorPrimary">#d81b60</color>
+    <color name="colorPrimaryDark">#a00037</color>
+    <color name="colorPrimaryLight">#ff5c8d</color>
+    <color name="colorAccent">#1e88e5</color>
+    <color name="colorAccentDark">#005cb2</color>
+    <color name="colorAccentLight">#6ab7ff</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorRipple">@color/white_2</color>
+    <color name="white_2">#33FFFFFF</color>
+
+</resources>

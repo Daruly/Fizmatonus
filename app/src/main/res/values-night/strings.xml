@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Hakatonus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="title">
+        <item>Парацетамол 200 мг  № 10</item>
+        <item>Уголь активированный  таблетки 250 мг №10…</item>
+        <item>Папазол №6</item>
+        <item>Папазол №6</item>
+        <item>Фурадонин 0,05 №10</item>
+        <item>Уголь активированный  таблетки 250 мг №10</item>
+        <item>Метронидазол 250мг №10 БЗМП</item>
+        <item>Кальция глюконат таб. 500 мг №10 Ирбит</item>
+        <item>Аскорбиновая кислота с сахаром 25 мг №10…</item>
+        <item>Кальция глюконат 500 мг  №10 БЗМП</item>
+        <item>Аскорбиновая к-та Счастливое детство  №10…</item>
+        <item>Ацетилсалициловая кислота 500 мг №10…</item>
+        <item>Аскорбиновая кислота с глюкозой 100 мг №10…</item>
+        <item>Аскорбиновая к-та с сах.диетич №10 закрутка…</item>
+        <item>Парацетамол 500 мг  № 10</item>
+        <item>Аскорбиновая к-та с сах.диетич №10 закрутка..</item>
+        <item>Аскорбиновая к-та Счастливое детство  №10…</item>
+        <item>Анальгин 500 мг  №10 таблетки БЗМП</item>
+        <item>Аскорбиновая к-та с сах.диетич №10 закрутка…</item>
+        <item>Аскорбиновая к-та Счастливое детство…</item>
+        <item>Ангисепт №10 таблетки</item>
+        <item>Метронидазол 0,25 №10 Эйкос</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>25 тг</item>
+        <item>30 тг</item>
+        <item>45 тг</item>
+        <item>45 тг</item>
+        <item>50 тг</item>
+        <item>50 тг</item>
+        <item>50 тг</item>
+        <item>50 тг</item>
+        <item>55 тг</item>
+        <item>60 тг</item>
+        <item>60 тг</item>
+        <item>60 тг</item>
+        <item>65 тг</item>
+        <item>70 тг</item>
+        <item>70 тг</item>
+        <item>70 тг</item>
+        <item>70 тг</item>
+        <item>70 тг</item>
+        <item>70 тг</item>
+        <item>70 тг</item>
+        <item>75 тг</item>
+        <item>75 тг</item>
+    </string-array>
+    <drawable name="photos">
+        <item>R.id.req_img0.jpg</item>
+        <item>R.id.req_img1.jpg</item>
+        <item>R.id.req_img2.jpg</item>
+        <item>R.id.req_img3.jpg</item>
+        <item>R.id.req_img4.jpg</item>
+        <item>R.id.req_img5.jpg</item>
+        <item>R.id.req_img6.jpg</item>
+        <item>R.id.req_img7.jpg</item>
+        <item>R.id.req_img8.jpg</item>
+        <item>R.id.req_img9.jpg</item>
+        <item>R.id.req_img10.jpg</item>
+        <item>R.id.req_img11.jpg</item>
+        <item>R.id.req_img12.jpg</item>
+        <item>R.id.req_img13.jpg</item>
+        <item>R.id.req_img14.jpg</item>
+        <item>R.id.req_img15.jpg</item>
+        <item>R.id.req_img16.jpg</item>
+        <item>R.id.req_img17.jpg</item>
+        <item>R.id.req_img18.jpg</item>
+        <item>R.id.req_img19.jpg</item>
+        <item>R.id.req_img20.jpg</item>
+        <item>R.id.req_img21.jpg</item>
+    </drawable>
+</resources>

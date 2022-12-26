@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp">
+    <ImageView
+        android:layout_marginStart="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_down_24"/>
+
+    <Button
+        android:id="@+id/fragment_forum_bottomsheetlayout_discussions"
+        style="@style/selector_button_transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@null"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:stateListAnimator="@null"
+        android:text="Новости"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/fragment_forum_bottomsheetlayout_connections"
+        android:textAllCaps="false"
+        style="@style/selector_button_transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:stateListAnimator="@null"
+        android:fontFamily="@font/inter_semibold"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Домашнее задание"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/fragment_forum_bottomsheetlayout_stories"
+        android:textAllCaps="false"
+        style="@style/selector_button_transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/inter_semibold"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Школьные истории"
+        android:stateListAnimator="@null"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/fragment_forum_bottomsheetlayout_reviews"
+        android:textAllCaps="false"
+        style="@style/selector_button_transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/inter_semibold"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="0dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Обсуждения"
+        android:textSize="20sp" />
+</LinearLayout>

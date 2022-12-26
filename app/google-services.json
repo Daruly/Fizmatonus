@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "557341588395",
+    "firebase_url": "https://telegrambot-toegqt.firebaseio.com",
+    "project_id": "telegrambot-toegqt",
+    "storage_bucket": "telegrambot-toegqt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557341588395:android:31bf63f7c6475d8e7eb0ee",
+        "android_client_info": {
+          "package_name": "company.hakatonus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557341588395-22usqbjt97saie45hah5i04bn76e59hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbzIpS6r-jIhAFbWKX6nTZ6AWyZ2coxBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557341588395-22usqbjt97saie45hah5i04bn76e59hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557341588395:android:152136893e3d7e057eb0ee",
+        "android_client_info": {
+          "package_name": "dtorossyan.company.hakatonus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557341588395-22usqbjt97saie45hah5i04bn76e59hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbzIpS6r-jIhAFbWKX6nTZ6AWyZ2coxBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557341588395-22usqbjt97saie45hah5i04bn76e59hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

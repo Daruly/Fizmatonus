@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForumPostAddActivity"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Поделитесь вашими мыслями:"
+        android:layout_above="@id/forum_addpost_textinputlayout"
+        android:layout_marginBottom="30dp"
+        android:textSize="28sp"
+        android:fontFamily="@font/inter_bold"/>
+
+    <EditText
+        android:id="@+id/edittext_post_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Пишите сюда" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/forum_addpost_textinputlayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edittext_post_desc"
+        android:layout_marginBottom="20dp"
+        >
+
+        <AutoCompleteTextView
+            android:editable="false"
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Новости"
+            tools:ignore="Deprecated" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/forum_addpost_btnAddPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/selector_button"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/edittext_post_desc"
+        android:layout_centerHorizontal="true"
+        android:text="Запостить!"
+        android:textSize="16sp"
+        />
+
+</RelativeLayout>
